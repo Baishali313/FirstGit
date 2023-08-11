@@ -23,6 +23,7 @@ item.style.color='green';
 item.style.fontWeight='bold';
 
 //make third element in the list green backgroud
+// assignment 4
 
 var items= document.getElementsByClassName('list-group-item');
 items[1].style.backgroundColor='green';
