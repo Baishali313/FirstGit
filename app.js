@@ -31,3 +31,21 @@ items[1].style.backgroundColor='green';
 for(var i=0;i<items.length;i++){
     items[i].style.fontWeight='bold';
 }
+
+//assignment 5
+
+//using className
+//var items= document.getElementsByClassName('list-group-item');
+//items[4].style.backgroundColor='green';
+//no effect
+
+
+
+//using tagname
+var li= document.getElementsByTagName('li');
+li[4].style.color='green';
+li[4].style.backgroundColor='#f4f4f4';
+li[4].style.fontWeight='bold';
+
+
+
